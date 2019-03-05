@@ -1,6 +1,12 @@
 function fish_prompt --description 'Write out the prompt'
     set -l prompt_color (fish_color_for_exit_status)
 
+
+    if test $CMD_DURATION -gt $fish_show_cmd_duration_threshold
+        printf '%s> %sms%s\n' (set_color $fish_color_autosuggestion) (echo $CMD_DURATION) (set_color normal)
+    end
+
+
     if test -z $WINDOW
         printf '%s %s%s%s>%s ' (whoami) (set_color $fish_color_cwd) (prompt_pwd) (echo $prompt_color) (set_color normal)
     else

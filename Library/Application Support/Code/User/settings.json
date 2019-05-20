@@ -13,5 +13,8 @@
         "editor.defaultFormatter": "esbenp.prettier-vscode"
     },
     "python.jediEnabled": false,
-    "editor.suggestSelection": "first"
+    "editor.suggestSelection": "first",
+    "[html]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    }
 }

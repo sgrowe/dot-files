@@ -16,5 +16,7 @@
     "editor.suggestSelection": "first",
     "[html]": {
         "editor.defaultFormatter": "esbenp.prettier-vscode"
-    }
+    },
+    "workbench.colorTheme": "Tomorrow Night Blue",
+    "editor.minimap.renderCharacters": false
 }

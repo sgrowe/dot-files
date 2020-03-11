@@ -4,19 +4,21 @@
     "editor.fontLigatures": true,
     "files.trimTrailingWhitespace": true,
     "files.trimFinalNewlines": true,
-    "flow.useNPMPackagedFlow": true,
     "explorer.confirmDragAndDrop": false,
     "javascript.updateImportsOnFileMove.enabled": "always",
-    "window.title": "${activeEditorMedium}${separator}${rootName}",
-    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "window.title": "${rootName}${separator}${activeEditorMedium}",
+    "python.jediEnabled": false,
+    "editor.suggestSelection": "first",
+    "workbench.colorTheme": "Tomorrow Night Blue",
+    "editor.minimap.renderCharacters": false,
+    "editor.formatOnSave": true,
     "[javascript]": {
         "editor.defaultFormatter": "esbenp.prettier-vscode"
     },
-    "python.jediEnabled": false,
-    "editor.suggestSelection": "first",
     "[html]": {
         "editor.defaultFormatter": "esbenp.prettier-vscode"
     },
-    "workbench.colorTheme": "Tomorrow Night Blue",
-    "editor.minimap.renderCharacters": false
+    "[yaml]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    }
 }
